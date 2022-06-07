@@ -1,0 +1,100 @@
+.footer{
+    width: 100vw;
+    background-color: #181818;
+    color: var(--text-white-color);
+    position: relative;
+    padding: 0 20px;
+}
+
+.footer__content{
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+}
+
+.footer__content__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content__box__choice{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__content__box__choice__link{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.footer__content__box__choice__link__zone{
+    display: inline-block;
+    margin-right: 3rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__content__box__choice__link__zone p{
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.footer__aline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: var(--white-color);
+    transition: .4s;
+}
+
+.footer__content__box__choice__link__zone:hover .footer__aline{
+    width: 100%;
+}
+
+.footer__content__box__choice__social{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+}
+
+.footer__content__box__choice__social__icon a{
+    cursor: pointer;
+    padding: 1rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.footer__content__box__choice__social__icon i{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.footer__content__box__note{
+    font-size: 1.35rem;
+    line-height: 2;
+    margin-bottom: 3rem;
+}
+
+.footer__content__box__note p{
+    margin: 0;
+}
+
+.footer__content__box__copyright{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.footer__content__box__copyright p{
+    margin: 0;
+}
